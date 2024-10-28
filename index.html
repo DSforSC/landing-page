@@ -3,74 +3,102 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <div class="introduction">
-      <div class="introduction navigation logo">
-        <img src="my_logo.jpg" alt="Header logo">
-      </div>
-      <div class="introduction navigation sidebar">
-        <ul>
+      <div class="navigation">
+        <img class="navigation_logo" src="my_logo.jpg" alt="Header logo">
+        <ul class="nav_bar">
           <li><a href="https://www.w3schools.com">header link one</a></li>
           <li><a href="https://www.w3schools.com">header link two</a></li>
           <li><a href="https://www.w3schools.com">header link three</a></li>
         </ul>
       </div>
-      <div class="introduction text">
-        <p class="introduction title">This website is awesome</p>
-        <p class="introduction subtext">This website has some subtext that goes
-          here under the main title. It's a smaller font and the color is lower
-          contrast.
-        </p>
-        <button class="sign_up">sign up</button>
-      </div>
-      <div class="introduction image">
-        <img src="my_face.jpg" alt="this is a placeholder for an image">
+
+      <div class="container" id="contents">
+        <div class="container" id="opening">
+          <p class="container" id="title">This website is awesome</p>
+          <p class="container" id="subtext">This website has some subtext that goes
+            here under the main title. It's a smaller font and the color is lower
+            contrast.
+          </p>
+          <button>sign up</button>
+        </div>
+        <div class="container"></div>
+        <div class="container" id="image">
+          <img src="my_face.jpg" alt="this is a placeholder for an image">
+        </div>
       </div>
     </div>
 
     <div class="main">
-      <div class="main title">
-        <p>Some random information.</p>
+      <div class="main" id="title">
+        Some random information.
       </div>
-      <div class="main boxes">
-        <div class="box">
-          <a>this is some subtext under an illustration or image</a>
+      <div class="main" id="boxes">
+        <div class="subbox">
+          <div class="box" id="image">
+            <img src="my_image.jpg" alt="image placeholder">
+          </div>
+          <div class="box" id="text">
+            <a>this is some subtext under an illustration or image</a>
+          </div>
         </div>
-        <div class="box">
-          <a>this is some subtext under an illustration or image</a>
+        <div class="subbox">
+          <div class="box" id="image">
+            <img src="my_image.jpg" alt="image placeholder">
+          </div>
+          <div class="box" id="text">
+            <a>this is some subtext under an illustration or image</a>
+          </div>
         </div>
-        <div class="box">
-          <a>this is some subtext under an illustration or image</a>
+        <div class="subbox">
+          <div class="box" id="image">
+            <img src="my_image.jpg" alt="image placeholder">
+          </div>
+          <div class="box" id="text">
+            <a>this is some subtext under an illustration or image</a>
+          </div>
         </div>
-        <div class="box">
-          <a>this is some subtext under an illustration or image</a>
+        <div class="subbox">
+          <div class="box" id="image">
+            <img src="my_image.jpg" alt="image placeholder">
+          </div>
+          <div class="box" id="text">
+            <a>this is some subtext under an illustration or image</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class = "main dark">
-      <p class = "quote">This is an inspiring quote, or a testimonial
+
+    <div class = "dark">
+      <p class = "quote"><i>is an inspiring quote, or a testimonial
         from a customer. Maybe it's just filling up space, or maybe people
-        will actually read it. Who knows? All I know is that it looks nice.
+        will actually read it. Who knows? All I know is that it looks nice.</i>
       </p>
-      <p class = "quote source">
+      <p class = "quote" id="source">
         -Thor, God of Thunder
       </p>
     </div>
+
     <div class="main">
-      <div class="footer text">
-        <p class="introduction title">Call to action! It's time!</p>
-        <p class="introduction subtext">Sign up for our product by clicking that
-          button over there!
-        </p>
-          <button class="sign_up">sign up</button>
-      </div>
-      <div class="footer button">
-        <button class="sign_up">sign up</button>
+      <div class="bluebox">
+        <div class="sign_container">
+          <p class="footer" id="title">Call to action! It's time!</p>
+          <p class="footer" id="subtext">Sign up for our product by clicking that
+            button over there!
+          </p>
+        </div>
+        <div class="button_container">
+          <button class="sign_up">Sign up</button>
+        </div>
       </div>
     </div>
   </body>
+
   <footer>
     <p class="footer text">
       Copyright © The Odin Project 2021
